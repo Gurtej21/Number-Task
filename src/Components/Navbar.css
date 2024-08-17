@@ -1,0 +1,45 @@
+.navbar{
+  display: flex;
+  padding: 20px 10%;
+  color:#ddd; 
+  border-bottom: 1px solid #3c3c3c;
+  align-items: center;
+  justify-content: space-between;
+}
+.logosection{
+  display: flex;
+  align-items: center;
+}
+.logoimg{
+  width: max(7vw,50px);
+}
+
+.nav-right{
+  display: flex;
+  align-items: center;
+  gap: max(1vw,12px);
+}
+
+.nav-right ul{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 20px;
+}
+.nav-right ul li{
+  cursor: pointer;
+}
+
+.nav-right button{
+  display: flex;
+  align-items: center;
+  
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  background:linear-gradient(45deg, #1003fd, #6208fd);;
+  border: none;
+  cursor: pointer;
+}
